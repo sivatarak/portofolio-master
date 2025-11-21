@@ -51,16 +51,16 @@ const projects: Project[] = [
   },
 
   // ⭐ Your existing public project (kept same)
-  // {
-  //   title: "Task Management App",
-  //   description:
-  //     "A secure and responsive task management app with JWT auth, dashboards, and project boards.",
-  //   image: "/next.svg",
-  //   color: "purple",
-  //   live: "https://task-management-seven-pearl.vercel.app/",
-  //   github: "https://github.com/Mani2453/task-management",
-  //   private: false,
-  // },
+  {
+    title: "Task Management App",
+    description:
+      "A secure and responsive task management app with JWT auth, dashboards, and project boards.",
+    image: "/next.svg",
+    color: "purple",
+    live: "https://task-management-seven-pearl.vercel.app/",
+    // github: "https://github.com/Mani2453/task-management",
+    private: false,
+  },
 ];
 
 // Tailwind color mappings
