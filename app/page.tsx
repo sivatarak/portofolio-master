@@ -51,16 +51,16 @@ const projects: Project[] = [
   },
 
   // ⭐ Your existing public project (kept same)
-  {
-    title: "Task Management App",
-    description:
-      "A secure and responsive task management app with JWT auth, dashboards, and project boards.",
-    image: "/next.svg",
-    color: "purple",
-    live: "https://task-management-seven-pearl.vercel.app/",
-    github: "https://github.com/Mani2453/task-management",
-    private: false,
-  },
+  // {
+  //   title: "Task Management App",
+  //   description:
+  //     "A secure and responsive task management app with JWT auth, dashboards, and project boards.",
+  //   image: "/next.svg",
+  //   color: "purple",
+  //   live: "https://task-management-seven-pearl.vercel.app/",
+  //   github: "https://github.com/Mani2453/task-management",
+  //   private: false,
+  // },
 ];
 
 // Tailwind color mappings
@@ -158,7 +158,7 @@ export default function Portfolio() {
         </div>
 
         <a
-          href="mailto:mani3481300@gmail.com"
+          href="mailto:sivatarak264@gmail.com"
           className="inline-block mt-2 px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-500 text-white text-lg font-semibold rounded-full shadow-lg hover:scale-105 transition-transform"
         >
           Hire Me
@@ -227,9 +227,9 @@ export default function Portfolio() {
                         <a href={project.live} target="_blank">Live Demo</a>
                       </Button>
 
-                      <Button asChild variant="outline" className={colorClasses.hoverBg}>
+                      {/* <Button asChild variant="outline" className={colorClasses.hoverBg}>
                         <a href={project.github} target="_blank">GitHub</a>
-                      </Button>
+                      </Button> */}
                     </div>
                   )}
                 </CardContent>
