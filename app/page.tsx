@@ -137,7 +137,7 @@ export default function Portfolio() {
         </h1>
 
         <h2 className="text-2xl mb-6 text-gray-700 font-semibold">
-          Freelance Full Stack Developer | React | Next.js | Node.js
+          Full Stack Developer | React | Next.js | Node.js
         </h2>
 
         <div className="flex gap-4 justify-center mb-6">
@@ -169,7 +169,7 @@ export default function Portfolio() {
       <section id="about" className="py-20 bg-white text-center px-6 animate-fade-in-up relative">
         <h2 className="text-4xl font-bold mb-4">About Me</h2>
         <p className="max-w-2xl mx-auto text-lg text-gray-700">
-          I am a passionate Full Stack Developer with expertise in React, Next.js, Node.js, Python and MongoDB.
+          I am a passionate Full Stack Developer with expertise in React, Next.js, Node.js, Python and MySql
         </p>
       </section>
 
@@ -181,7 +181,6 @@ export default function Portfolio() {
             "React.js",
             "Next.js",
             "Node.js",
-            "MongoDB",
             "Tailwind CSS",
             "Express.js",
             "JavaScript",
