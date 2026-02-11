@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Siva | Full Stack Developer Portfolio",
-  description: "Explore the portfolio of Manikanta, a passionate Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
+  title: "VidyaLakshmi | Full Stack Developer Portfolio",
+  description: "Explore the portfolio of VidyaLakshmi, a passionate Full Stack Developer specializing in React,  Node.js, and modern web technologies.",
 };
 
 export default function RootLayout({
